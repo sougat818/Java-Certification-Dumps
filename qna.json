@@ -1,5 +1,5 @@
 {
-  "comment" : "Options and answers are numbered starting from 0",
+  "comment": "Options and answers are numbered starting from 0",
   "qna": [
     {
       "question": [
@@ -23,17 +23,28 @@
     },
     {
       "question": [
-       ""
-     ],
+        "Given",
+        "12. public class Yippee2 {",
+        "13.",
+        "14. static public void main(String [] yahoo) {",
+        "15. for(int x = 1; x < yahoo.length; x++) {",
+        "16. System.out.print(yahoo[x] + \" \");",
+        "17. }",
+        "18. }",
+        "19. }",
+        "and the command line invocation:",
+        "java Yippee2 a b c",
+        "What is the result?"
+      ],
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "a b",
+        "b c",
+        "a b c",
+        "Compilation fails.",
+        "An exception is thrown at runtime."
       ],
       "answer": [
-        1,
-        2
+        1
       ]
     }
   ]
