@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript">
+/*<![CDATA[*/
+    function toggleAnswer(id) {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block') {
+            e.style.display = 'none';
+        }
+        else {
+            e.style.display = 'block';
+        }
+    } 
+    /*]]>*/
+    </script>
+    <style type="text/css">
+/*<![CDATA[*/
+    .answer {
+        display: none;
+    }
+    /*]]>*/
+    </style>
+
+    <title>Java Certification Dumps</title>
+</head>
+
+<body>
+    <div>
+ 
+
+       <div>
+            <pre>
+question 1
+</pre>
+        </div><button onclick="toggleAnswer('q1');">Answer</button>
+
+        <div id="q1"
+             class="answer">
+            answer 1
+        </div>
+
+
+    </div>
+</body>
+</html>
