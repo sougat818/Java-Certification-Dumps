@@ -1,0 +1,38 @@
+{
+  "comment" : "Options and answers are numbered starting from 0",
+  "qna": [
+    {
+      "question": [
+        "Given",
+        "10. class Foo {",
+        "11. static void alpha() { /* more code here */ }",
+        "12. void beta() { /* more code here */ }",
+        "13. } ",
+        "Which two statements are true? (Choose two.)"
+      ],
+      "options": [
+        "Foo.beta() is a valid invocation of beta().",
+        "Foo.alpha() is a valid invocation of alpha().",
+        "Method beta() can directly call method alpha().",
+        "Method beta() can directly call method alpha()."
+      ],
+      "answer": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": [
+        1,
+        2
+      ]
+    }
+  ]
+}
