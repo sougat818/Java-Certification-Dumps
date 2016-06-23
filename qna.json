@@ -11,10 +11,18 @@
         "Which two statements are true? (Choose two.)"
       ],
       "options": [
-        "Foo.beta() is a valid invocation of beta().",
-        "Foo.alpha() is a valid invocation of alpha().",
-        "Method beta() can directly call method alpha().",
-        "Method beta() can directly call method alpha()."
+        [
+          "Foo.beta() is a valid invocation of beta()."
+        ],
+        [
+          "Foo.alpha() is a valid invocation of alpha()."
+        ],
+        [
+          "Method beta() can directly call method alpha()."
+        ],
+        [
+          "Method beta() can directly call method alpha()."
+        ]
       ],
       "answer": [
         1,
@@ -37,11 +45,66 @@
         "What is the result?"
       ],
       "options": [
-        "a b",
-        "b c",
-        "a b c",
-        "Compilation fails.",
-        "An exception is thrown at runtime."
+        [
+          "a b"
+        ],
+        [
+          "b c"
+        ],
+        [
+          "a b c"
+        ],
+        [
+          "Compilation fails."
+        ],
+        [
+          "An exception is thrown at runtime."
+        ]
+      ],
+      "answer": [
+        1
+      ]
+    },
+    {
+      "question": [
+        "Given:",
+        "15. public class Yippee {",
+        "16. public static void main(String [] args) {",
+        "17. for(int x = 1; x < args.length; x++) {",
+        "18. System.out.print(args[x] + \" \");",
+        "19. }",
+        "20. }",
+        "21. }",
+        "and two separate command line invocations:",
+        "java Yippee",
+        "java Yippee 1 2 3 4",
+        "What is the result?"
+      ],
+      "options": [
+        [
+          "No output is produced.",
+          "1 2 3"
+        ],
+        [
+          "No output is produced.",
+          "2 3 4"
+        ],
+        [
+          "No output is produced.",
+          "1 2 3 4"
+        ],
+        [
+          "An exception is thrown at runtime.",
+          "1 2 3"
+        ],
+        [
+          "An exception is thrown at runtime.",
+          "2 3 4"
+        ],
+        [
+          "An exception is thrown at runtime.",
+          "1 2 3 4"
+        ]
       ],
       "answer": [
         1
